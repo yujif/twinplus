@@ -1,0 +1,78 @@
+sections:
+  mast:
+    -
+        -
+            - "GC1"
+        - "専門基礎・必修"
+        - 36.0
+    -
+        -
+            - "GC2"
+            - "GA1"
+        - "専門基礎・選択"
+        - 22.0
+    -
+        -
+            - "GC4"
+        - "専門・必修"
+        - 12.0
+    -
+        -
+            - "GC5"
+        - "専門・選択"
+        - 30
+  base:
+    -
+        -
+            - "11"
+            - "12"
+            - "13"
+        - "総合科目I"
+        - 2.0
+    -
+        -
+            - "1A"
+            - "1B"
+            - "1C"
+        - "総合科目II"
+        - 6.0
+    -
+        -
+            - "21"
+            - "22"
+        - "体育"
+        - 2.0
+    -
+        -
+            - "31"
+        - "英語"
+        - 5.5
+    -
+        -
+            - "9"
+        - "教職"
+        - 31.0
+  free:
+    - "自由"
+    - "9.0"
+
+database:
+  filename: "kamokuYEAR.db" #YEAR -> 2015, 2014, 2013
+  base_year: "2015"
+  table_name: "kamoku"
+  column_names:
+    - "code"
+    - "name"
+    - "method"
+    - "unit"
+    - "grade"
+    - "term"
+    - "period"
+    - "location"
+    - "teacher"
+    - "abstruct"
+    - "note"
+    - "research_students"
+    - "reason"
+    - "english_name"
+    - "time"
